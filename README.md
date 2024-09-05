@@ -1,2 +1,2 @@
 # urban-disco
-sewakossurabaya
+sewakossurabaya.com
