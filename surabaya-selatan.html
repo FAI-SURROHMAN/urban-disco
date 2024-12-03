@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en" >
+       
+<head>
+    <title>Sewakossurabaya</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <!-- Favicon -->
+    <link href="img/logo sewa kos surabaya web.png" rel="icon">
+    <link href="img/logo sewa kos surabaya web.png" rel="apple-touch-icon">
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-xxl bg-white p-2">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-10 vh-10 top-30 start-30 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 1rem; height: 1rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+        <!-- Navbar Start -->
+        <div class="property-card">
+            <div class="p-100 py-9">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-1 px-2 ">
+                <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
+                    <div class=" p-9 me-3">
+                        <img class="img-fluid" src="img/logo.jpeg" alt="Icon" style="width: 50px; height: 50px;">
+                    </div>
+                    <h3 class="m-1 py-1">Sewakossurabaya</h3>
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="about.html" class="nav-item nav-link">Tentang kami</a>
+                        <a href="testimonial.html" class="nav-item nav-link">Review</a>
+                        <div class="nav-item dropdown">
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Bisnis</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="partner kos.html" class="dropdown-item">Partner kos</a>
+                                <a href="investasi kos.html" class="dropdown-item">Investasi kos</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Hubungi Kami</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="container-fluid header bg-white p-0">
+            <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
+                <div class="col-md-7 col-12 mt-3 mt-md-0">
+                    <div class="display-7 animated fadeIn mb-100 responsive-bg"
+                        style="background-image: url('img/halokost/IMG_20241011_102658.jpg');">
+                        <div class="parent-container" style="position: relative; height: 100%;">
+                            <div class="search-container" style="position: absolute; bottom: 20px; left: 20px; right: 20px;">
+                                <h1 class="text-center" style="color: black;">Find the place you visit</h1>
+                                <select class="form-select mt-2" aria-label="Select location" id="locationSelect" onchange="redirectToPage()">
+                                    <option value="" disabled selected>Cari lokasi</option>
+                                    <option value="semua.html">Semua</option>
+                                    <option value="surabaya-barat.html">Surabaya Barat</option>
+                                    <option value="surabaya-selatan.html">Surabaya Selatan</option>
+                                    <option value="surabaya-timur.html">Surabaya Timur</option>
+                                    <option value="Sidoarjo.html">Sidoarjo</option>
+                                    <option value="kediri.html">Kediri</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 animated fadeIn position-relative">
+                    <div class="owl-carousel header-carousel">
+                        <div class="owl-carousel-item">
+                            <img class="img-fluid" src="img/kostku/KESEMPATAN .png" alt="" style="border-radius: 0;">
+                        </div>
+                        <div class="owl-carousel-item">
+                            <img class="img-fluid" src="img/kosmile/kosmile.png" alt="" style="border-radius: 0;">
+                        </div>
+                        <div class="owl-carousel-item">
+                            <img class="img-fluid" src="img/kostku/kostku.png" alt="" style="border-radius: 0;">
+                        </div>
+                        <div class="owl-carousel-item">
+                            <img class="img-fluid" src="img/kostel/kostel.png" alt="" style="border-radius: 0;">
+                        </div>
+                    </div>
+                    <button class="owl-prev">&#8249;</button>
+                    <button class="owl-next">&#8250;</button>
+                </div>
+            </div>
+        </div>
+        
+         <div class="container-fluid bg-primary mb-2 wow fadeIn" data-wow-delay="0.1s" style="padding: 5px; width: 100%; margin: 0 auto;"></div> 
+        <!-- Header Start -->
+        <div class="container-xxl py-1">
+            <div class="container">
+                <div class="row align-items-end">
+                    <div class="col-lg-13">
+                        <div class="text-start mx-auto wow slideInLeft" data-wow-delay="0.1s">
+                            <h1 class="text-center py-2">Sewakossurabaya: Surabaya Selatan</h1>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content">
+                    <div id="tab-1" class="tab-pane fade show p-0 active">
+                        <div class="row g-4">
+                            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href="kostku residence.html"><img class="img-fluid" src="img/kostku/Desain tanpa judul.jpg" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Campur</div>
+                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-1 pt-1 px-3">Sisa 1</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h4>KOSTKU RESIDENCE</h4>
+                                        <h8 class="text-primary"><span style="font-size: small; color:black ;">Mulai dari</span></h8>
+                                        <h5 class="text-primary mb-3">Rp 2.000.000<span style="font-size: small; color: black;">/bulan</span></h5>
+                                        <a href="kostku residence.html">Lihat selengkapnya</a>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Jl. Tenggilis Mejoyo Utara II no. 4 (B - 41), Surabaya, Indonesia 60293 </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href="kosmile residence.html"><img class="img-fluid" src="img/kosmile/5.jpg" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Campur</div>
+                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-1 pt-1 px-3">Sisa 2</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h4>KOSMILE RESIDENCE</h4>
+                                        <h8 class="text-primary"><span style="font-size: small; color:black ;">Mulai dari</span></h8>
+                                        <h5 class="text-primary mb-3">Rp 2.000.000<span style="font-size: small; color: black;">/bulan</span></h5>
+                                        <a href="kosmile residence.html">Lihat selengkapnya</a>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Tenggilis Mejoyo Selatan X no 19 (MM-10), Surabaya, Indonesia 60293</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href="kostel residence.html"><img class="img-fluid" src="img/kostel/7.jpg" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Campur</div>
+                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-1 pt-1 px-3">Sisa 2</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h4>KOSTEL RESIDENCE</h4>
+                                        <h8 class="text-primary"><span style="font-size: small; color:black ;">Mulai dari</span></h8>
+                                        <h5 class="text-primary mb-3">Rp 1.800.000<span style="font-size: small; color: black;">/bulan</span></h5>
+                                        <a href="kostel residence.html">Lihat selengkapnya</a>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Jl. Rungkut Mejoyo Selatan IV / 46 - 48 (u 23-24), Surabaya, Indonesia 60293</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href="kostkita residence.html"><img class="img-fluid" src="img/kostkita/8.jpg" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Campur</div>
+                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-1 pt-1 px-3">Sisa 1</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h4>KOSTKITA RESIDENCE</h4>
+                                        <h8 class="text-primary"><span style="font-size: small; color:black ;">Mulai dari</span></h8>
+                                        <h5 class="text-primary mb-3">Rp 1.600.000<span style="font-size: small; color: black;">/bulan</span></h5>
+                                        <a href="kostkita residence.html">Lihat selengkapnya</a>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Rungkut Mejoyo Utara 29 (AN-44), Surabaya, Indonesia 60292 </p>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href="kostar residence.html"><img class="img-fluid" src="img/kostar/6.jpg" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Campur</div>
+                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-1 pt-1 px-3">Sisa 1</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h4>KOSTAR RESIDENCE</h4>
+                                        <h8 class="text-primary"><span style="font-size: small; color:black ;">Mulai dari</span></h8>
+                                        <h5 class="text-primary mb-3">Rp 1.500.000<span style="font-size: small; color: black;">/bulan</span></h5>
+                                        <a href="kostar residence.html">Lihat selengkapnya</a>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Rungkut Mejoyo Selatan 11 no. 08A, Surabaya, Indonesia 60293</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href="kost rms residence.html"><img class="img-fluid" src="img/rms/11.jpg" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Campur</div>
+                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-1 pt-1 px-3">Sisa 2</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h5>KOST RMS RESIDENCE</h5>
+                                        <h8 class="text-primary"><span style="font-size: small; color:black ;">Mulai dari</span></h8>
+                                        <h5 class="text-primary mb-3">Rp 1.600.000<span style="font-size: small; color: black;">/bulan</span></h5>
+                                        <a href="kost rms residence.html">Lihat selengkapnya</a>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Rungkut Mejoyo Selatan XI no. 4, Surabaya, Indonesia 60293</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href="kostme residence.html"><img class="img-fluid" src="img/kostme/9.jpg" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Campur</div>
+                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-1 pt-1 px-3">Sisa 3</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h4>KOSTME RESIDENCE</h4>
+                                        <h8 class="text-primary"><span style="font-size: small; color:black ;">Mulai dari</span></h8>
+                                        <h5 class="text-primary mb-3">Rp 2.000.000<span style="font-size: small; color: black;">/bulan</span></h5>
+                                        <a href="kostme residence.html">Lihat selengkapnya</a>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Kutisari Indah Utara IV No. 01, Surabaya, Indonesia 60291</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href="kosayu residence.html"><img class="img-fluid" src="img/kosayu/foto banguana.png" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Campur</div>
+                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-1 pt-1 px-3">Sisa 2</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h4>KOSAYU RESIDENCE</h4>
+                                        <h8 class="text-primary"><span style="font-size: small; color:black ;">Mulai dari</span></h8>
+                                        <h5 class="text-primary mb-3">Rp 1.700.000<span style="font-size: small; color: black;">/bulan</span></h5>
+                                        <a href="kosayu residence.html">Lihat selengkapnya</a>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Rungkut Mejoyo Utara IV/12 (AG-6), Surabaya, Indonesia 60293</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href="kost masbro.html"><img class="img-fluid" src="img/kos masbro/Desain tanpa judul.jpg" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Putra</div>
+                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-1 pt-1 px-3">Sisa 1</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h4>KOST MASBRO</h4>
+                                        <h8 class="text-primary"><span style="font-size: small; color:black ;">Mulai dari</span></h8>
+                                        <h5 class="text-primary mb-3">Rp 1.100.000<span style="font-size: small; color: black;">/bulan</span></h5>
+                                        <a href="kost masbro.html">Lihat selengkapnya</a>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Raya Tenggilis Mejoyo Ai 34, Surabaya, Indonesia 60293</p>
+                                    </div>
+                                
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href="kosaku residence.html"><img class="img-fluid" src="img/kosaku/3.jpg" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Campur</div>
+                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-1 pt-1 px-3">Sisa 2</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h4>KOSAKU RESIDENCE</h4>
+                                        <h8 class="text-primary"><span style="font-size: small; color:black ;">Mulai dari</span></h8>
+                                        <h5 class="text-primary mb-3">Rp 1.800.000<span style="font-size: small; color: black;">/bulan</span></h5>
+                                        <a href="kosaku residence.html">Lihat selengkapnya</a>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Rungkut Mejoyo Selatan XII no 01 (blok X-11), Surabaya, Indonesia 60293</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href="halokost surabaya.html"><img class="img-fluid" src="img/halokost/1.jpg" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Putri</div>
+                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-1 pt-1 px-3">Sisa 1</div>
+                                    </div>
+                                    <div class="p-4 pb-0"> 
+                                        <h4>HALOKOST SURABAYA</h4>
+                                        <h8 class="text-primary"><span style="font-size: small; color:black ;">Mulai dari</span></h8>
+                                        <h5 class="text-primary mb-3">Rp 1.800.000<span style="font-size: small; color: black;">/bulan</span></h5>
+                                        <a href="halokost surabaya.html">Lihat selengkapnya</a>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Rungkut Asri Timur XIV No. 74, Rungkut Kidul, Kec. Rungkut, Kota SBY</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href="kos ceria residence.html"><img class="img-fluid" src="img/kosceria/4.jpg" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Putra</div>
+                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-1 pt-1 px-3">Sisa 2</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h4>KOS CERIA RESIDENCE</h4>
+                                        <h8 class="text-primary"><span style="font-size: small; color:black ;">Mulai dari</span></h8>
+                                        <h5 class="text-primary mb-3">Rp 1.200.000<span style="font-size: small; color: black;">/bulan</span></h5>
+                                        <a href="kos ceria residence.html">Lihat selengkapnya</a>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Jl. Rungkut Mejoyo Utara IV No.1, Kali Rungkut, Kec. Rungkut, Surabaya, Jawa Timur 60293</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href="kokost residence.html"><img class="img-fluid" src="img/kokost/2.jpg" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Putra</div>
+                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-1 pt-1 px-3">Sisa 1</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h4>KOKOST RESIDENCE</h4>
+                                        <h8 class="text-primary"><span style="font-size: small; color:black ;">Mulai dari</span></h8>
+                                        <h5 class="text-primary mb-3">Rp 1.200.000<span style="font-size: small; color: black;">/bulan</span></h5>
+                                        <a href="kokost residence.html">Lihat selengkapnya</a>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Jl. Rungkut Mejoyo Selatan V No.48 / Blok W-24, Kali Rungkut, Kec. Rungkut, Kota SBY, Jawa Timur 60293</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href="one kost residence.html"><img class="img-fluid" src="img/one/10.jpg" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Putra</div>
+                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-1 pt-1 px-3">Sisa 1</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h4>ONE KOST RESIDENCE</h4>
+                                        <h8 class="text-primary"><span style="font-size: small; color:black ;">Mulai dari</span></h8>
+                                        <h5 class="text-primary mb-3">Rp 1.200.000<span style="font-size: small; color: black;">/bulan</span></h5>
+                                        <a href="one kost residence.html">Lihat selengkapnya</a>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>akses jalan luas
+                                        - 300 m dari kampus UBAYA (bisa jalan kaki)
+                                        - 10 menit dari Trans Mart Rungkut
+                                        - 5 menit dari Rumah Sakit UBAYA</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href="kosmania residence.html"><img class="img-fluid" src="img/Kosmania/3.png" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Putra</div>
+                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-1 pt-1 px-3">Sisa 2</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h5>KOSMANIA RESIDENCE</h5>
+                                        <h8 class="text-primary"><span style="font-size: small; color:black ;">Mulai dari</span></h8>
+                                        <h5 class="text-primary mb-3">Rp 1.200.000<span style="font-size: small; color: black;">/bulan</span></h5>
+                                        <a href="kosmania residence.html">Lihat selengkapnya</a>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Raya Tenggilis Mejoyo Ai 30, Surabaya, Indonesia 60293</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href="detail16.html"><img class="img-fluid" src="img/Desain tanpa judul.png" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3"></div>
+                                        <div class="p-4"></div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h4>HIKOST RESIDENCE</h4>
+                                        <h8 class="text-primary"><span style="font-size: small; color:black ;">Mulai dari</span></h8>
+                                        <h5 class="text-primary mb-3">Rp xxxx <span style="font-size: small; color: black;">/bulan</span></h5>
+                                        <a href="detail16.html">Lihat selengkapnya</a>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href="kosvilla residence.html"><img class="img-fluid" src="img/Desain tanpa judul.png" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3"></div>
+                                        <div class="p-4"></div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h4>KOSVILLA RESIDENCE</h4>
+                                        <h8 class="text-primary"><span style="font-size: small; color:black ;">Mulai dari</span></h8>
+                                        <h5 class="text-primary mb-3">Rp xxxx <span style="font-size: small; color: black;">/bulan</span></h5>
+                                        <a href="kosvilla residence.html">Lihat selengkapnya</a>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                </div>
+            </div>
+
+            <!-- Footer Start -->
+            <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+                <div class="container py-5">
+                    <div class="row g-5">
+                        <div class="col-lg-3 col-md-6">
+                            <h5 class="text-white mb-4">Hubungi kami</h5>
+                                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Surabaya</p>
+                                <p class="mb-2"><i class="fa fa-envelope me-3"></i>sewakossurabaya@gmail.com</p>
+                            <div class="d-flex pt-2">
+                                <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/sewakossurabaya"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-outline-light btn-social" href="https://www.tiktok.com/@sewakossurabaya"><i class="fab fa-tiktok"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="position-relative mx-auto" style="max-width: 400px;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="copyright">
+                        <div class="row">
+                            <div class="col-md-0 text-center text-md-start mb-3 mb-md-0">
+                                &copy; copyright 2016 sewakossurabaya.com - All Rights Reserved
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer End -->
+            <!-- Back to Top -->
+            <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="path/to/owl.carousel.min.js"></script>
+        <link rel="stylesheet" href="path/to/owl.carousel.min.css">
+        <link rel="stylesheet" href="path/to/owl.theme.default.min.css">
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <meta name="google-site-verification" content="aP7-ydF7Qyb1LyoSpXMcMubkIwed106HbORH-LTW2io" />
+        
+    </body>
+    </html>
